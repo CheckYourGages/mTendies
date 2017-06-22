@@ -12,7 +12,7 @@ var diningHalls = {
 var scrape = function (){
 	var url = "https://dining.umich.edu/menus-locations/dining-halls/";
 
-	var food = "Scrambled Eggs"
+	var food = "Chicken Tenders"
 		
 
 	request(url + 'south-quad/', (err, response, html) => {
